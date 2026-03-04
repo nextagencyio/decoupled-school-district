@@ -1,0 +1,138 @@
+{
+  "data": {
+    "nodeNewsItems": {
+      "__typename": "NodeNewsConnection",
+      "nodes": [
+        {
+          "__typename": "NodeNews",
+          "id": "news-bond-approval",
+          "title": "Voters Approve $85M School Bond Measure",
+          "path": "/news/bond-measure-approved",
+          "body": {
+            "processed": "<p>Oakridge voters have overwhelmingly approved Measure 4A, an $85 million bond measure that will fund new school construction, technology upgrades, and safety improvements across the district.</p><p>\"This is a tremendous vote of confidence in our schools,\" said Superintendent Dr. Linda Perez. \"These funds will allow us to modernize our facilities and ensure every student has access to 21st-century learning environments.\"</p><p>Construction is expected to begin in summer 2026, with major projects completed by 2029.</p>",
+            "summary": "Oakridge voters have overwhelmingly approved Measure 4A, an $85 million bond measure that will fund new school construction, technology upgrades, and safety improvements across the district.\"This is a"
+          },
+          "category": [
+            {
+              "id": "announcements",
+              "name": "announcements"
+            }
+          ],
+          "featured": true,
+          "image": {
+            "url": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&q=80",
+            "alt": "Voters Approve School Bond Measure",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeNews",
+          "id": "news-stem-award",
+          "title": "Oakridge High Wins State STEM Excellence Award",
+          "path": "/news/stem-excellence-award",
+          "body": {
+            "processed": "<p>Oakridge High School has been named a State STEM School of Excellence for 2026, recognizing the school's outstanding integration of science, technology, engineering, and mathematics across all subject areas.</p><p>The award highlights the district's investment in state-of-the-art lab equipment, teacher professional development, and partnerships with local tech companies.</p>",
+            "summary": "Oakridge High School has been named a State STEM School of Excellence for 2026, recognizing the school's outstanding integration of science, technology, engineering, and mathematics across all subject"
+          },
+          "category": [
+            {
+              "id": "academics",
+              "name": "academics"
+            }
+          ],
+          "featured": true,
+          "image": {
+            "url": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=800&q=80",
+            "alt": "STEM Excellence Award",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeNews",
+          "id": "news-sports-championship",
+          "title": "Eagles Win State Basketball Championship",
+          "path": "/news/state-basketball-championship",
+          "body": {
+            "processed": "<p>The Oakridge Eagles boys basketball team captured the state championship title with a thrilling 72-68 victory in the finals. This marks the school's first state basketball title in 15 years.</p><p>Head Coach Marcus Johnson praised his team's dedication and hard work throughout the season. \"These young men showed incredible character and resilience. This championship belongs to the entire Oakridge community.\"</p>",
+            "summary": "The Oakridge Eagles boys basketball team captured the state championship title with a thrilling 72-68 victory in the finals. This marks the school's first state basketball title in 15 years.Head Coach"
+          },
+          "category": [
+            {
+              "id": "athletics",
+              "name": "athletics"
+            }
+          ],
+          "featured": false,
+          "image": {
+            "url": "https://images.unsplash.com/photo-1546519638-68e109498ffc?w=800&q=80",
+            "alt": "State Basketball Championship",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1546519638-68e109498ffc?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1546519638-68e109498ffc?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1546519638-68e109498ffc?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

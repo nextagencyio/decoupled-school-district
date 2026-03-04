@@ -1,0 +1,985 @@
+{
+  "/homepage": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeHomepage",
+          "id": "homepage",
+          "title": "Welcome to Oakridge School District",
+          "path": "/homepage",
+          "heroTitle": "Excellence in Education",
+          "heroSubtitle": "Inspiring Every Student, Every Day",
+          "heroDescription": {
+            "processed": "<p>Oakridge School District is committed to providing a world-class education for every child. Our dedicated teachers, innovative programs, and supportive community create an environment where students thrive.</p>",
+            "summary": "Oakridge School District is committed to providing a world-class education for every child. Our dedicated teachers, innovative programs, and supportive community create an environment where students t"
+          },
+          "statsItems": [
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-students",
+              "title": "",
+              "number": "12,500+",
+              "label": "Students"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-schools",
+              "title": "",
+              "number": "18",
+              "label": "Schools"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-teachers",
+              "title": "",
+              "number": "900+",
+              "label": "Teachers"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-graduation",
+              "title": "",
+              "number": "96%",
+              "label": "Graduation Rate"
+            }
+          ],
+          "featuredSchoolsTitle": "Our Schools",
+          "ctaTitle": "Enroll Your Child Today",
+          "ctaDescription": {
+            "processed": "<p>Registration for the 2026-2027 school year is now open. Give your child the best start at Oakridge School District.</p>",
+            "summary": "Registration for the 2026-2027 school year is now open. Give your child the best start at Oakridge School District."
+          },
+          "ctaPrimary": "Enroll Now",
+          "ctaSecondary": "Schedule a Tour"
+        }
+      }
+    }
+  },
+  "/schools/oakridge-elementary": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeSchool",
+          "id": "school-oakridge-elementary",
+          "title": "Oakridge Elementary School",
+          "path": "/schools/oakridge-elementary",
+          "body": {
+            "processed": "<p>Oakridge Elementary serves students in grades K-5 with a focus on building strong foundations in literacy, mathematics, and social-emotional learning. Our award-winning teachers use innovative teaching methods to engage every learner.</p><h2>Programs</h2><ul><li>Gifted and Talented Program</li><li>STEM Exploration Lab</li><li>After-School Enrichment</li><li>Spanish Language Immersion</li></ul>",
+            "summary": "Oakridge Elementary serves students in grades K-5 with a focus on building strong foundations in literacy, mathematics, and social-emotional learning. Our award-winning teachers use innovative teachin"
+          },
+          "schoolLevel": [
+            {
+              "id": "elementary",
+              "name": "elementary"
+            }
+          ],
+          "address": "450 Oak Street, Oakridge, OR 97463",
+          "phone": "(541) 555-0101",
+          "principal": "Dr. Maria Santos",
+          "enrollmentCount": 520,
+          "image": {
+            "url": "https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=800&q=80",
+            "alt": "Oakridge Elementary School",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/schools/pine-valley-elementary": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeSchool",
+          "id": "school-pine-valley-elementary",
+          "title": "Pine Valley Elementary School",
+          "path": "/schools/pine-valley-elementary",
+          "body": {
+            "processed": "<p>Pine Valley Elementary is a community-centered school offering individualized instruction and a nurturing environment. Our focus on project-based learning helps students develop critical thinking and collaboration skills from an early age.</p><h2>Highlights</h2><ul><li>Outdoor Learning Garden</li><li>Inclusive Classroom Model</li><li>Music and Arts Integration</li><li>Family Engagement Program</li></ul>",
+            "summary": "Pine Valley Elementary is a community-centered school offering individualized instruction and a nurturing environment. Our focus on project-based learning helps students develop critical thinking and "
+          },
+          "schoolLevel": [
+            {
+              "id": "elementary",
+              "name": "elementary"
+            }
+          ],
+          "address": "1200 Pine Valley Road, Oakridge, OR 97463",
+          "phone": "(541) 555-0102",
+          "principal": "James Mitchell",
+          "enrollmentCount": 480,
+          "image": {
+            "url": "https://images.unsplash.com/photo-1592419044706-39796d40f98c?w=800&q=80",
+            "alt": "Pine Valley Elementary School",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1592419044706-39796d40f98c?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1592419044706-39796d40f98c?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1592419044706-39796d40f98c?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/schools/oakridge-middle": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeSchool",
+          "id": "school-oakridge-middle",
+          "title": "Oakridge Middle School",
+          "path": "/schools/oakridge-middle",
+          "body": {
+            "processed": "<p>Oakridge Middle School prepares students in grades 6-8 for high school success through rigorous academics and extensive extracurricular opportunities. Our advisory program ensures every student has a trusted adult mentor.</p><h2>Academics</h2><ul><li>Advanced Math and Science Tracks</li><li>World Languages Program</li><li>Technology and Engineering Electives</li><li>College and Career Readiness</li></ul>",
+            "summary": "Oakridge Middle School prepares students in grades 6-8 for high school success through rigorous academics and extensive extracurricular opportunities. Our advisory program ensures every student has a "
+          },
+          "schoolLevel": [
+            {
+              "id": "middle-school",
+              "name": "middle-school"
+            }
+          ],
+          "address": "800 School Drive, Oakridge, OR 97463",
+          "phone": "(541) 555-0201",
+          "principal": "Patricia Chen",
+          "enrollmentCount": 650,
+          "image": {
+            "url": "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=800&q=80",
+            "alt": "Oakridge Middle School",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/schools/oakridge-high": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeSchool",
+          "id": "school-oakridge-high",
+          "title": "Oakridge High School",
+          "path": "/schools/oakridge-high",
+          "body": {
+            "processed": "<p>Oakridge High School offers a comprehensive educational experience for students in grades 9-12. With 20+ AP courses, championship athletics, and vibrant arts programs, students are prepared for college and career success.</p><h2>Offerings</h2><ul><li>20+ AP Courses</li><li>Career and Technical Education Pathways</li><li>Dual Enrollment with Oakridge Community College</li><li>Championship Athletics Program</li></ul>",
+            "summary": "Oakridge High School offers a comprehensive educational experience for students in grades 9-12. With 20+ AP courses, championship athletics, and vibrant arts programs, students are prepared for colleg"
+          },
+          "schoolLevel": [
+            {
+              "id": "high-school",
+              "name": "high-school"
+            }
+          ],
+          "address": "1500 Eagle Drive, Oakridge, OR 97463",
+          "phone": "(541) 555-0301",
+          "principal": "Dr. Robert Kim",
+          "enrollmentCount": 1200,
+          "image": {
+            "url": "https://images.unsplash.com/photo-1562774053-701939374585?w=800&q=80",
+            "alt": "Oakridge High School",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1562774053-701939374585?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1562774053-701939374585?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1562774053-701939374585?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/board/sarah-thompson": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeBoardMember",
+          "id": "board-thompson",
+          "title": "Sarah Thompson",
+          "path": "/board/sarah-thompson",
+          "body": {
+            "processed": "<p>Sarah Thompson has served on the Oakridge School Board since 2020. A lifelong educator and parent of three Oakridge graduates, she is passionate about ensuring equitable access to quality education for all students.</p>",
+            "summary": "Sarah Thompson has served on the Oakridge School Board since 2020. A lifelong educator and parent of three Oakridge graduates, she is passionate about ensuring equitable access to quality education fo"
+          },
+          "position": "Board President",
+          "email": "sthompson@oakridgeisd.edu",
+          "phone": "(541) 555-1001",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&q=80",
+            "alt": "Sarah Thompson - Board President",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "termStart": {
+            "timestamp": 1579068000
+          },
+          "termEnd": {
+            "timestamp": 1798696800
+          }
+        }
+      }
+    }
+  },
+  "/board/michael-garcia": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeBoardMember",
+          "id": "board-garcia",
+          "title": "Michael Garcia",
+          "path": "/board/michael-garcia",
+          "body": {
+            "processed": "<p>Michael Garcia brings 15 years of business leadership experience to the school board. He is committed to fiscal responsibility and building partnerships between schools and local businesses to create career pathways for students.</p>",
+            "summary": "Michael Garcia brings 15 years of business leadership experience to the school board. He is committed to fiscal responsibility and building partnerships between schools and local businesses to create "
+          },
+          "position": "Board Vice President",
+          "email": "mgarcia@oakridgeisd.edu",
+          "phone": "(541) 555-1002",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&q=80",
+            "alt": "Michael Garcia - Board Vice President",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "termStart": {
+            "timestamp": 1642226400
+          },
+          "termEnd": {
+            "timestamp": 1861855200
+          }
+        }
+      }
+    }
+  },
+  "/board/jennifer-williams": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeBoardMember",
+          "id": "board-williams",
+          "title": "Jennifer Williams",
+          "path": "/board/jennifer-williams",
+          "body": {
+            "processed": "<p>Dr. Jennifer Williams is a pediatrician and community advocate who joined the board in 2023. She focuses on student health and wellness initiatives and expanding mental health resources across the district.</p>",
+            "summary": "Dr. Jennifer Williams is a pediatrician and community advocate who joined the board in 2023. She focuses on student health and wellness initiatives and expanding mental health resources across the dis"
+          },
+          "position": "Board Secretary",
+          "email": "jwilliams@oakridgeisd.edu",
+          "phone": "(541) 555-1003",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&q=80",
+            "alt": "Jennifer Williams - Board Secretary",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "termStart": {
+            "timestamp": 1673762400
+          },
+          "termEnd": {
+            "timestamp": 1830232800
+          }
+        }
+      }
+    }
+  },
+  "/board/robert-davis": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeBoardMember",
+          "id": "board-davis",
+          "title": "Robert Davis",
+          "path": "/board/robert-davis",
+          "body": {
+            "processed": "<p>Robert Davis is a retired school principal with over 30 years of experience in education. He advocates for teacher support, professional development, and maintaining high academic standards across all district schools.</p>",
+            "summary": "Robert Davis is a retired school principal with over 30 years of experience in education. He advocates for teacher support, professional development, and maintaining high academic standards across all"
+          },
+          "position": "Board Member",
+          "email": "rdavis@oakridgeisd.edu",
+          "phone": "(541) 555-1004",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80",
+            "alt": "Robert Davis - Board Member",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "termStart": {
+            "timestamp": 1610690400
+          },
+          "termEnd": {
+            "timestamp": 1830232800
+          }
+        }
+      }
+    }
+  },
+  "/programs/stem-initiative": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeProgram",
+          "id": "program-stem",
+          "title": "STEM Initiative",
+          "path": "/programs/stem-initiative",
+          "body": {
+            "processed": "<p>Our district-wide STEM Initiative provides students with hands-on learning experiences in science, technology, engineering, and mathematics. From robotics clubs to coding bootcamps, students explore real-world applications of STEM concepts.</p><h2>Components</h2><ul><li>Robotics and Engineering Labs</li><li>Computer Science Pathway (K-12)</li><li>Science Fair and Math Olympiad Programs</li><li>Industry Mentorship Partnerships</li></ul>",
+            "summary": "Our district-wide STEM Initiative provides students with hands-on learning experiences in science, technology, engineering, and mathematics. From robotics clubs to coding bootcamps, students explore r"
+          },
+          "programArea": [
+            {
+              "id": "stem",
+              "name": "stem"
+            }
+          ],
+          "eligibility": "All students K-12",
+          "gradesServed": "K-12",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1581092921461-eab62e97a780?w=800&q=80",
+            "alt": "STEM Initiative",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1581092921461-eab62e97a780?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1581092921461-eab62e97a780?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1581092921461-eab62e97a780?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/programs/fine-arts-program": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeProgram",
+          "id": "program-arts",
+          "title": "Fine Arts Program",
+          "path": "/programs/fine-arts-program",
+          "body": {
+            "processed": "<p>The Oakridge Fine Arts Program nurtures creativity and self-expression through visual arts, music, theater, and dance. Students have opportunities to perform, exhibit, and compete at local, state, and national levels.</p><h2>Offerings</h2><ul><li>Band, Choir, and Orchestra</li><li>Visual Arts and Digital Media</li><li>Theater and Musical Productions</li><li>Annual Arts Festival</li></ul>",
+            "summary": "The Oakridge Fine Arts Program nurtures creativity and self-expression through visual arts, music, theater, and dance. Students have opportunities to perform, exhibit, and compete at local, state, and"
+          },
+          "programArea": [
+            {
+              "id": "arts",
+              "name": "arts"
+            }
+          ],
+          "eligibility": "All students K-12",
+          "gradesServed": "K-12",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=800&q=80",
+            "alt": "Fine Arts Program",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/programs/athletics-program": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeProgram",
+          "id": "program-athletics",
+          "title": "Athletics Program",
+          "path": "/programs/athletics-program",
+          "body": {
+            "processed": "<p>Oakridge Athletics builds character, teamwork, and physical fitness through competitive and recreational sports. Our student-athletes consistently excel in academics while competing at the highest levels.</p><h2>Sports</h2><ul><li>Football, Basketball, Soccer, Baseball</li><li>Track & Field, Cross Country, Swimming</li><li>Tennis, Golf, Volleyball</li><li>Club Sports and Intramurals</li></ul>",
+            "summary": "Oakridge Athletics builds character, teamwork, and physical fitness through competitive and recreational sports. Our student-athletes consistently excel in academics while competing at the highest lev"
+          },
+          "programArea": [
+            {
+              "id": "athletics",
+              "name": "athletics"
+            }
+          ],
+          "eligibility": "Students in grades 6-12",
+          "gradesServed": "6-12",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=800&q=80",
+            "alt": "Athletics Program",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/events/board-meeting-april-2026": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeEvent",
+          "id": "event-board-meeting",
+          "title": "Regular Board Meeting - April 2026",
+          "path": "/events/board-meeting-april-2026",
+          "body": {
+            "processed": "<p>The Oakridge School Board will hold its regular monthly meeting. Agenda items include the 2026-2027 budget proposal, new curriculum adoption, and facilities update.</p><h2>Agenda</h2><ul><li>Call to Order</li><li>Public Comment Period</li><li>Budget Proposal Presentation</li><li>Curriculum Committee Report</li><li>Facilities Update</li><li>Adjournment</li></ul>",
+            "summary": "The Oakridge School Board will hold its regular monthly meeting. Agenda items include the 2026-2027 budget proposal, new curriculum adoption, and facilities update.AgendaCall to OrderPublic Comment Pe"
+          },
+          "eventDate": {
+            "timestamp": 1775689200
+          },
+          "endDate": {
+            "timestamp": 1775698200
+          },
+          "location": "District Administration Building, Board Room",
+          "eventType": [
+            {
+              "id": "board-meeting",
+              "name": "board-meeting"
+            }
+          ],
+          "image": {
+            "url": "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=800&q=80",
+            "alt": "Board Meeting",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/events/spring-open-house-2026": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeEvent",
+          "id": "event-open-house",
+          "title": "Spring Open House - All Schools",
+          "path": "/events/spring-open-house-2026",
+          "body": {
+            "processed": "<p>Visit our schools and meet teachers during our district-wide Spring Open House. Tours, classroom demonstrations, and information sessions will be available at all Oakridge schools.</p><p>This is a great opportunity for new families to learn about our programs and for current families to see upcoming improvements.</p>",
+            "summary": "Visit our schools and meet teachers during our district-wide Spring Open House. Tours, classroom demonstrations, and information sessions will be available at all Oakridge schools.This is a great oppo"
+          },
+          "eventDate": {
+            "timestamp": 1776290400
+          },
+          "endDate": {
+            "timestamp": 1776301200
+          },
+          "location": "All Oakridge Schools",
+          "eventType": [
+            {
+              "id": "open-house",
+              "name": "open-house"
+            }
+          ],
+          "registrationUrl": "https://oakridgeisd.edu/register/open-house",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=800&q=80",
+            "alt": "Spring Open House",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/events/graduation-2026": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeEvent",
+          "id": "event-graduation",
+          "title": "Class of 2026 Graduation Ceremony",
+          "path": "/events/graduation-2026",
+          "body": {
+            "processed": "<p>Join us in celebrating the Oakridge High School Class of 2026! The commencement ceremony will feature student speakers, awards presentations, and the conferring of diplomas.</p><p>Each graduate receives four complimentary guest tickets. Additional tickets may be available after April 30.</p>",
+            "summary": "Join us in celebrating the Oakridge High School Class of 2026! The commencement ceremony will feature student speakers, awards presentations, and the conferring of diplomas.Each graduate receives four"
+          },
+          "eventDate": {
+            "timestamp": 1780671600
+          },
+          "endDate": {
+            "timestamp": 1780678800
+          },
+          "location": "Oakridge High School Stadium",
+          "eventType": [
+            {
+              "id": "community",
+              "name": "community"
+            }
+          ],
+          "image": {
+            "url": "https://images.unsplash.com/photo-1523580846011-d3a5bc25702b?w=800&q=80",
+            "alt": "Graduation Ceremony",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1523580846011-d3a5bc25702b?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1523580846011-d3a5bc25702b?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1523580846011-d3a5bc25702b?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/news/bond-measure-approved": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeNews",
+          "id": "news-bond-approval",
+          "title": "Voters Approve $85M School Bond Measure",
+          "path": "/news/bond-measure-approved",
+          "body": {
+            "processed": "<p>Oakridge voters have overwhelmingly approved Measure 4A, an $85 million bond measure that will fund new school construction, technology upgrades, and safety improvements across the district.</p><p>\"This is a tremendous vote of confidence in our schools,\" said Superintendent Dr. Linda Perez. \"These funds will allow us to modernize our facilities and ensure every student has access to 21st-century learning environments.\"</p><p>Construction is expected to begin in summer 2026, with major projects completed by 2029.</p>",
+            "summary": "Oakridge voters have overwhelmingly approved Measure 4A, an $85 million bond measure that will fund new school construction, technology upgrades, and safety improvements across the district.\"This is a"
+          },
+          "category": [
+            {
+              "id": "announcements",
+              "name": "announcements"
+            }
+          ],
+          "featured": true,
+          "image": {
+            "url": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&q=80",
+            "alt": "Voters Approve School Bond Measure",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/news/stem-excellence-award": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeNews",
+          "id": "news-stem-award",
+          "title": "Oakridge High Wins State STEM Excellence Award",
+          "path": "/news/stem-excellence-award",
+          "body": {
+            "processed": "<p>Oakridge High School has been named a State STEM School of Excellence for 2026, recognizing the school's outstanding integration of science, technology, engineering, and mathematics across all subject areas.</p><p>The award highlights the district's investment in state-of-the-art lab equipment, teacher professional development, and partnerships with local tech companies.</p>",
+            "summary": "Oakridge High School has been named a State STEM School of Excellence for 2026, recognizing the school's outstanding integration of science, technology, engineering, and mathematics across all subject"
+          },
+          "category": [
+            {
+              "id": "academics",
+              "name": "academics"
+            }
+          ],
+          "featured": true,
+          "image": {
+            "url": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=800&q=80",
+            "alt": "STEM Excellence Award",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/news/state-basketball-championship": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeNews",
+          "id": "news-sports-championship",
+          "title": "Eagles Win State Basketball Championship",
+          "path": "/news/state-basketball-championship",
+          "body": {
+            "processed": "<p>The Oakridge Eagles boys basketball team captured the state championship title with a thrilling 72-68 victory in the finals. This marks the school's first state basketball title in 15 years.</p><p>Head Coach Marcus Johnson praised his team's dedication and hard work throughout the season. \"These young men showed incredible character and resilience. This championship belongs to the entire Oakridge community.\"</p>",
+            "summary": "The Oakridge Eagles boys basketball team captured the state championship title with a thrilling 72-68 victory in the finals. This marks the school's first state basketball title in 15 years.Head Coach"
+          },
+          "category": [
+            {
+              "id": "athletics",
+              "name": "athletics"
+            }
+          ],
+          "featured": false,
+          "image": {
+            "url": "https://images.unsplash.com/photo-1546519638-68e109498ffc?w=800&q=80",
+            "alt": "State Basketball Championship",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1546519638-68e109498ffc?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1546519638-68e109498ffc?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1546519638-68e109498ffc?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/about": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodePage",
+          "id": "page-about",
+          "title": "About Oakridge School District",
+          "path": "/about",
+          "body": {
+            "processed": "<p>Founded in 1952, Oakridge School District has been the cornerstone of education in our community for over seven decades. We serve more than 12,500 students across 18 schools, from pre-kindergarten through grade 12.</p><h2>Our Mission</h2><p>To inspire and prepare every student for success in college, career, and life through rigorous academics, enriching experiences, and a caring community.</p><h2>Our Values</h2><ul><li><strong>Excellence</strong> - We hold ourselves and our students to the highest standards.</li><li><strong>Equity</strong> - Every student deserves access to quality education regardless of background.</li><li><strong>Community</strong> - We build strong partnerships between schools, families, and the community.</li><li><strong>Innovation</strong> - We embrace new approaches to teaching and learning.</li></ul><h2>Accreditation</h2><p>All Oakridge schools are fully accredited by the Northwest Accreditation Commission.</p>",
+            "summary": "Founded in 1952, Oakridge School District has been the cornerstone of education in our community for over seven decades. We serve more than 12,500 students across 18 schools, from pre-kindergarten thr"
+          }
+        }
+      }
+    }
+  },
+  "/enrollment": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodePage",
+          "id": "page-enrollment",
+          "title": "Enrollment Information",
+          "path": "/enrollment",
+          "body": {
+            "processed": "<h2>New Student Registration</h2><p>Welcome to Oakridge School District! We are excited to have your family join our community. Registration for the 2026-2027 school year is now open.</p><h2>Required Documents</h2><ul><li>Proof of residency (utility bill, lease agreement, or mortgage statement)</li><li>Student's birth certificate</li><li>Immunization records</li><li>Previous school records and transcripts</li></ul><h2>Key Dates</h2><ul><li><strong>Open Enrollment:</strong> March 1 - April 30</li><li><strong>Late Registration:</strong> May 1 - August 15</li><li><strong>First Day of School:</strong> August 25, 2026</li></ul><h2>School Boundary Information</h2><p>Students are assigned to schools based on their home address. Contact the district office for boundary questions or transfer requests.</p>",
+            "summary": "New Student RegistrationWelcome to Oakridge School District! We are excited to have your family join our community. Registration for the 2026-2027 school year is now open.Required DocumentsProof of re"
+          }
+        }
+      }
+    }
+  }
+}

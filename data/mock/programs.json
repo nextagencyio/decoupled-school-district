@@ -1,0 +1,141 @@
+{
+  "data": {
+    "nodePrograms": {
+      "__typename": "NodeProgramConnection",
+      "nodes": [
+        {
+          "__typename": "NodeProgram",
+          "id": "program-stem",
+          "title": "STEM Initiative",
+          "path": "/programs/stem-initiative",
+          "body": {
+            "processed": "<p>Our district-wide STEM Initiative provides students with hands-on learning experiences in science, technology, engineering, and mathematics. From robotics clubs to coding bootcamps, students explore real-world applications of STEM concepts.</p><h2>Components</h2><ul><li>Robotics and Engineering Labs</li><li>Computer Science Pathway (K-12)</li><li>Science Fair and Math Olympiad Programs</li><li>Industry Mentorship Partnerships</li></ul>",
+            "summary": "Our district-wide STEM Initiative provides students with hands-on learning experiences in science, technology, engineering, and mathematics. From robotics clubs to coding bootcamps, students explore r"
+          },
+          "programArea": [
+            {
+              "id": "stem",
+              "name": "stem"
+            }
+          ],
+          "eligibility": "All students K-12",
+          "gradesServed": "K-12",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1581092921461-eab62e97a780?w=800&q=80",
+            "alt": "STEM Initiative",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1581092921461-eab62e97a780?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1581092921461-eab62e97a780?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1581092921461-eab62e97a780?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeProgram",
+          "id": "program-arts",
+          "title": "Fine Arts Program",
+          "path": "/programs/fine-arts-program",
+          "body": {
+            "processed": "<p>The Oakridge Fine Arts Program nurtures creativity and self-expression through visual arts, music, theater, and dance. Students have opportunities to perform, exhibit, and compete at local, state, and national levels.</p><h2>Offerings</h2><ul><li>Band, Choir, and Orchestra</li><li>Visual Arts and Digital Media</li><li>Theater and Musical Productions</li><li>Annual Arts Festival</li></ul>",
+            "summary": "The Oakridge Fine Arts Program nurtures creativity and self-expression through visual arts, music, theater, and dance. Students have opportunities to perform, exhibit, and compete at local, state, and"
+          },
+          "programArea": [
+            {
+              "id": "arts",
+              "name": "arts"
+            }
+          ],
+          "eligibility": "All students K-12",
+          "gradesServed": "K-12",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=800&q=80",
+            "alt": "Fine Arts Program",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeProgram",
+          "id": "program-athletics",
+          "title": "Athletics Program",
+          "path": "/programs/athletics-program",
+          "body": {
+            "processed": "<p>Oakridge Athletics builds character, teamwork, and physical fitness through competitive and recreational sports. Our student-athletes consistently excel in academics while competing at the highest levels.</p><h2>Sports</h2><ul><li>Football, Basketball, Soccer, Baseball</li><li>Track & Field, Cross Country, Swimming</li><li>Tennis, Golf, Volleyball</li><li>Club Sports and Intramurals</li></ul>",
+            "summary": "Oakridge Athletics builds character, teamwork, and physical fitness through competitive and recreational sports. Our student-athletes consistently excel in academics while competing at the highest lev"
+          },
+          "programArea": [
+            {
+              "id": "athletics",
+              "name": "athletics"
+            }
+          ],
+          "eligibility": "Students in grades 6-12",
+          "gradesServed": "6-12",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=800&q=80",
+            "alt": "Athletics Program",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

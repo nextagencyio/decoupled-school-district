@@ -1,0 +1,193 @@
+{
+  "data": {
+    "nodeSchools": {
+      "__typename": "NodeSchoolConnection",
+      "nodes": [
+        {
+          "__typename": "NodeSchool",
+          "id": "school-oakridge-elementary",
+          "title": "Oakridge Elementary School",
+          "path": "/schools/oakridge-elementary",
+          "body": {
+            "processed": "<p>Oakridge Elementary serves students in grades K-5 with a focus on building strong foundations in literacy, mathematics, and social-emotional learning. Our award-winning teachers use innovative teaching methods to engage every learner.</p><h2>Programs</h2><ul><li>Gifted and Talented Program</li><li>STEM Exploration Lab</li><li>After-School Enrichment</li><li>Spanish Language Immersion</li></ul>",
+            "summary": "Oakridge Elementary serves students in grades K-5 with a focus on building strong foundations in literacy, mathematics, and social-emotional learning. Our award-winning teachers use innovative teachin"
+          },
+          "schoolLevel": [
+            {
+              "id": "elementary",
+              "name": "elementary"
+            }
+          ],
+          "address": "450 Oak Street, Oakridge, OR 97463",
+          "phone": "(541) 555-0101",
+          "principal": "Dr. Maria Santos",
+          "enrollmentCount": 520,
+          "image": {
+            "url": "https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=800&q=80",
+            "alt": "Oakridge Elementary School",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeSchool",
+          "id": "school-pine-valley-elementary",
+          "title": "Pine Valley Elementary School",
+          "path": "/schools/pine-valley-elementary",
+          "body": {
+            "processed": "<p>Pine Valley Elementary is a community-centered school offering individualized instruction and a nurturing environment. Our focus on project-based learning helps students develop critical thinking and collaboration skills from an early age.</p><h2>Highlights</h2><ul><li>Outdoor Learning Garden</li><li>Inclusive Classroom Model</li><li>Music and Arts Integration</li><li>Family Engagement Program</li></ul>",
+            "summary": "Pine Valley Elementary is a community-centered school offering individualized instruction and a nurturing environment. Our focus on project-based learning helps students develop critical thinking and "
+          },
+          "schoolLevel": [
+            {
+              "id": "elementary",
+              "name": "elementary"
+            }
+          ],
+          "address": "1200 Pine Valley Road, Oakridge, OR 97463",
+          "phone": "(541) 555-0102",
+          "principal": "James Mitchell",
+          "enrollmentCount": 480,
+          "image": {
+            "url": "https://images.unsplash.com/photo-1592419044706-39796d40f98c?w=800&q=80",
+            "alt": "Pine Valley Elementary School",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1592419044706-39796d40f98c?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1592419044706-39796d40f98c?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1592419044706-39796d40f98c?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeSchool",
+          "id": "school-oakridge-middle",
+          "title": "Oakridge Middle School",
+          "path": "/schools/oakridge-middle",
+          "body": {
+            "processed": "<p>Oakridge Middle School prepares students in grades 6-8 for high school success through rigorous academics and extensive extracurricular opportunities. Our advisory program ensures every student has a trusted adult mentor.</p><h2>Academics</h2><ul><li>Advanced Math and Science Tracks</li><li>World Languages Program</li><li>Technology and Engineering Electives</li><li>College and Career Readiness</li></ul>",
+            "summary": "Oakridge Middle School prepares students in grades 6-8 for high school success through rigorous academics and extensive extracurricular opportunities. Our advisory program ensures every student has a "
+          },
+          "schoolLevel": [
+            {
+              "id": "middle-school",
+              "name": "middle-school"
+            }
+          ],
+          "address": "800 School Drive, Oakridge, OR 97463",
+          "phone": "(541) 555-0201",
+          "principal": "Patricia Chen",
+          "enrollmentCount": 650,
+          "image": {
+            "url": "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=800&q=80",
+            "alt": "Oakridge Middle School",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeSchool",
+          "id": "school-oakridge-high",
+          "title": "Oakridge High School",
+          "path": "/schools/oakridge-high",
+          "body": {
+            "processed": "<p>Oakridge High School offers a comprehensive educational experience for students in grades 9-12. With 20+ AP courses, championship athletics, and vibrant arts programs, students are prepared for college and career success.</p><h2>Offerings</h2><ul><li>20+ AP Courses</li><li>Career and Technical Education Pathways</li><li>Dual Enrollment with Oakridge Community College</li><li>Championship Athletics Program</li></ul>",
+            "summary": "Oakridge High School offers a comprehensive educational experience for students in grades 9-12. With 20+ AP courses, championship athletics, and vibrant arts programs, students are prepared for colleg"
+          },
+          "schoolLevel": [
+            {
+              "id": "high-school",
+              "name": "high-school"
+            }
+          ],
+          "address": "1500 Eagle Drive, Oakridge, OR 97463",
+          "phone": "(541) 555-0301",
+          "principal": "Dr. Robert Kim",
+          "enrollmentCount": 1200,
+          "image": {
+            "url": "https://images.unsplash.com/photo-1562774053-701939374585?w=800&q=80",
+            "alt": "Oakridge High School",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1562774053-701939374585?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1562774053-701939374585?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1562774053-701939374585?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

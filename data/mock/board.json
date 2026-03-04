@@ -1,0 +1,189 @@
+{
+  "data": {
+    "nodeBoardMembers": {
+      "__typename": "NodeBoardMemberConnection",
+      "nodes": [
+        {
+          "__typename": "NodeBoardMember",
+          "id": "board-thompson",
+          "title": "Sarah Thompson",
+          "path": "/board/sarah-thompson",
+          "body": {
+            "processed": "<p>Sarah Thompson has served on the Oakridge School Board since 2020. A lifelong educator and parent of three Oakridge graduates, she is passionate about ensuring equitable access to quality education for all students.</p>",
+            "summary": "Sarah Thompson has served on the Oakridge School Board since 2020. A lifelong educator and parent of three Oakridge graduates, she is passionate about ensuring equitable access to quality education fo"
+          },
+          "position": "Board President",
+          "email": "sthompson@oakridgeisd.edu",
+          "phone": "(541) 555-1001",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&q=80",
+            "alt": "Sarah Thompson - Board President",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "termStart": {
+            "timestamp": 1579068000
+          },
+          "termEnd": {
+            "timestamp": 1798696800
+          }
+        },
+        {
+          "__typename": "NodeBoardMember",
+          "id": "board-garcia",
+          "title": "Michael Garcia",
+          "path": "/board/michael-garcia",
+          "body": {
+            "processed": "<p>Michael Garcia brings 15 years of business leadership experience to the school board. He is committed to fiscal responsibility and building partnerships between schools and local businesses to create career pathways for students.</p>",
+            "summary": "Michael Garcia brings 15 years of business leadership experience to the school board. He is committed to fiscal responsibility and building partnerships between schools and local businesses to create "
+          },
+          "position": "Board Vice President",
+          "email": "mgarcia@oakridgeisd.edu",
+          "phone": "(541) 555-1002",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&q=80",
+            "alt": "Michael Garcia - Board Vice President",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "termStart": {
+            "timestamp": 1642226400
+          },
+          "termEnd": {
+            "timestamp": 1861855200
+          }
+        },
+        {
+          "__typename": "NodeBoardMember",
+          "id": "board-williams",
+          "title": "Jennifer Williams",
+          "path": "/board/jennifer-williams",
+          "body": {
+            "processed": "<p>Dr. Jennifer Williams is a pediatrician and community advocate who joined the board in 2023. She focuses on student health and wellness initiatives and expanding mental health resources across the district.</p>",
+            "summary": "Dr. Jennifer Williams is a pediatrician and community advocate who joined the board in 2023. She focuses on student health and wellness initiatives and expanding mental health resources across the dis"
+          },
+          "position": "Board Secretary",
+          "email": "jwilliams@oakridgeisd.edu",
+          "phone": "(541) 555-1003",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&q=80",
+            "alt": "Jennifer Williams - Board Secretary",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "termStart": {
+            "timestamp": 1673762400
+          },
+          "termEnd": {
+            "timestamp": 1830232800
+          }
+        },
+        {
+          "__typename": "NodeBoardMember",
+          "id": "board-davis",
+          "title": "Robert Davis",
+          "path": "/board/robert-davis",
+          "body": {
+            "processed": "<p>Robert Davis is a retired school principal with over 30 years of experience in education. He advocates for teacher support, professional development, and maintaining high academic standards across all district schools.</p>",
+            "summary": "Robert Davis is a retired school principal with over 30 years of experience in education. He advocates for teacher support, professional development, and maintaining high academic standards across all"
+          },
+          "position": "Board Member",
+          "email": "rdavis@oakridgeisd.edu",
+          "phone": "(541) 555-1004",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80",
+            "alt": "Robert Davis - Board Member",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "termStart": {
+            "timestamp": 1610690400
+          },
+          "termEnd": {
+            "timestamp": 1830232800
+          }
+        }
+      ]
+    }
+  }
+}

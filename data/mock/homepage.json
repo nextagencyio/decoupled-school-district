@@ -1,0 +1,59 @@
+{
+  "data": {
+    "nodeHomepages": {
+      "__typename": "NodeHomepageConnection",
+      "nodes": [
+        {
+          "__typename": "NodeHomepage",
+          "id": "homepage",
+          "title": "Welcome to Oakridge School District",
+          "path": "/homepage",
+          "heroTitle": "Excellence in Education",
+          "heroSubtitle": "Inspiring Every Student, Every Day",
+          "heroDescription": {
+            "processed": "<p>Oakridge School District is committed to providing a world-class education for every child. Our dedicated teachers, innovative programs, and supportive community create an environment where students thrive.</p>",
+            "summary": "Oakridge School District is committed to providing a world-class education for every child. Our dedicated teachers, innovative programs, and supportive community create an environment where students t"
+          },
+          "statsItems": [
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-students",
+              "title": "",
+              "number": "12,500+",
+              "label": "Students"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-schools",
+              "title": "",
+              "number": "18",
+              "label": "Schools"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-teachers",
+              "title": "",
+              "number": "900+",
+              "label": "Teachers"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-graduation",
+              "title": "",
+              "number": "96%",
+              "label": "Graduation Rate"
+            }
+          ],
+          "featuredSchoolsTitle": "Our Schools",
+          "ctaTitle": "Enroll Your Child Today",
+          "ctaDescription": {
+            "processed": "<p>Registration for the 2026-2027 school year is now open. Give your child the best start at Oakridge School District.</p>",
+            "summary": "Registration for the 2026-2027 school year is now open. Give your child the best start at Oakridge School District."
+          },
+          "ctaPrimary": "Enroll Now",
+          "ctaSecondary": "Schedule a Tour"
+        }
+      ]
+    }
+  }
+}

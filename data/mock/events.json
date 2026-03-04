@@ -1,0 +1,157 @@
+{
+  "data": {
+    "nodeEvents": {
+      "__typename": "NodeEventConnection",
+      "nodes": [
+        {
+          "__typename": "NodeEvent",
+          "id": "event-board-meeting",
+          "title": "Regular Board Meeting - April 2026",
+          "path": "/events/board-meeting-april-2026",
+          "body": {
+            "processed": "<p>The Oakridge School Board will hold its regular monthly meeting. Agenda items include the 2026-2027 budget proposal, new curriculum adoption, and facilities update.</p><h2>Agenda</h2><ul><li>Call to Order</li><li>Public Comment Period</li><li>Budget Proposal Presentation</li><li>Curriculum Committee Report</li><li>Facilities Update</li><li>Adjournment</li></ul>",
+            "summary": "The Oakridge School Board will hold its regular monthly meeting. Agenda items include the 2026-2027 budget proposal, new curriculum adoption, and facilities update.AgendaCall to OrderPublic Comment Pe"
+          },
+          "eventDate": {
+            "timestamp": 1775689200
+          },
+          "endDate": {
+            "timestamp": 1775698200
+          },
+          "location": "District Administration Building, Board Room",
+          "eventType": [
+            {
+              "id": "board-meeting",
+              "name": "board-meeting"
+            }
+          ],
+          "image": {
+            "url": "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=800&q=80",
+            "alt": "Board Meeting",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeEvent",
+          "id": "event-open-house",
+          "title": "Spring Open House - All Schools",
+          "path": "/events/spring-open-house-2026",
+          "body": {
+            "processed": "<p>Visit our schools and meet teachers during our district-wide Spring Open House. Tours, classroom demonstrations, and information sessions will be available at all Oakridge schools.</p><p>This is a great opportunity for new families to learn about our programs and for current families to see upcoming improvements.</p>",
+            "summary": "Visit our schools and meet teachers during our district-wide Spring Open House. Tours, classroom demonstrations, and information sessions will be available at all Oakridge schools.This is a great oppo"
+          },
+          "eventDate": {
+            "timestamp": 1776290400
+          },
+          "endDate": {
+            "timestamp": 1776301200
+          },
+          "location": "All Oakridge Schools",
+          "eventType": [
+            {
+              "id": "open-house",
+              "name": "open-house"
+            }
+          ],
+          "registrationUrl": "https://oakridgeisd.edu/register/open-house",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=800&q=80",
+            "alt": "Spring Open House",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeEvent",
+          "id": "event-graduation",
+          "title": "Class of 2026 Graduation Ceremony",
+          "path": "/events/graduation-2026",
+          "body": {
+            "processed": "<p>Join us in celebrating the Oakridge High School Class of 2026! The commencement ceremony will feature student speakers, awards presentations, and the conferring of diplomas.</p><p>Each graduate receives four complimentary guest tickets. Additional tickets may be available after April 30.</p>",
+            "summary": "Join us in celebrating the Oakridge High School Class of 2026! The commencement ceremony will feature student speakers, awards presentations, and the conferring of diplomas.Each graduate receives four"
+          },
+          "eventDate": {
+            "timestamp": 1780671600
+          },
+          "endDate": {
+            "timestamp": 1780678800
+          },
+          "location": "Oakridge High School Stadium",
+          "eventType": [
+            {
+              "id": "community",
+              "name": "community"
+            }
+          ],
+          "image": {
+            "url": "https://images.unsplash.com/photo-1523580846011-d3a5bc25702b?w=800&q=80",
+            "alt": "Graduation Ceremony",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1523580846011-d3a5bc25702b?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1523580846011-d3a5bc25702b?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1523580846011-d3a5bc25702b?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
