@@ -72,7 +72,7 @@ export default function SchoolsPreview({ homepageContent }: SchoolsPreviewProps)
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {schools.map((school) => (
+          {schools.slice(0, 3).map((school) => (
             <Link
               key={school.id}
               href={school.path || `/schools/${school.id}`}
