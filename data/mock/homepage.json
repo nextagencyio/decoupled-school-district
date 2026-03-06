@@ -19,28 +19,28 @@
               "__typename": "ParagraphStatItem",
               "id": "stat-students",
               "title": "",
-              "number": "12,500+",
+              "number": "12,500+", "value": "12,500+",
               "label": "Students"
             },
             {
               "__typename": "ParagraphStatItem",
               "id": "stat-schools",
               "title": "",
-              "number": "18",
+              "number": "18", "value": "18",
               "label": "Schools"
             },
             {
               "__typename": "ParagraphStatItem",
               "id": "stat-teachers",
               "title": "",
-              "number": "900+",
+              "number": "900+", "value": "900+",
               "label": "Teachers"
             },
             {
               "__typename": "ParagraphStatItem",
               "id": "stat-graduation",
               "title": "",
-              "number": "96%",
+              "number": "96%", "value": "96%",
               "label": "Graduation Rate"
             }
           ],
