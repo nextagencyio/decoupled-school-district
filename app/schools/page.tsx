@@ -7,6 +7,7 @@ import Header from '../components/Header'
 import SchoolCard from '../components/SchoolCard'
 
 export const revalidate = 3600
+export const dynamic = 'force-dynamic'
 
 export const metadata: Metadata = {
   title: 'Schools | Riverside Unified School District',

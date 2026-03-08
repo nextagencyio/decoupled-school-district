@@ -7,6 +7,7 @@ import Header from '../components/Header'
 import BoardMemberCard from '../components/BoardMemberCard'
 
 export const revalidate = 3600
+export const dynamic = 'force-dynamic'
 
 export const metadata: Metadata = {
   title: 'Board of Education | Riverside Unified School District',
