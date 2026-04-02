@@ -1,6 +1,5 @@
+import { getClient } from '@/lib/drupal-client'
 import { Metadata } from 'next'
-import { headers } from 'next/headers'
-import { getServerApolloClient } from '@/lib/apollo-client'
 import { GET_BOARD_MEMBERS } from '@/lib/queries'
 import { BoardMembersData } from '@/lib/types'
 import Header from '../components/Header'
@@ -16,13 +15,8 @@ export const metadata: Metadata = {
 
 async function getBoardMembers() {
   try {
-    const requestHeaders = await headers()
-    const apolloClient = getServerApolloClient(requestHeaders)
-    const { data } = await apolloClient.query<BoardMembersData>({
-      query: GET_BOARD_MEMBERS,
-      variables: { first: 50 },
-      fetchPolicy: 'cache-first',
-    })
+    const client = getClient()
+    const { data } = await client.raw(GET_BOARD_MEMBERS, { first: 50 })
     return data?.nodeBoardMembers?.nodes || []
   } catch (error) {
     console.error('Error fetching board members:', error)
