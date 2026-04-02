@@ -24,7 +24,7 @@ interface BoardMemberByPathData {
 async function getBoardMember(path: string): Promise<DrupalBoardMember | null> {
   try {
     const client = getClient()
-    const { data } = await client.raw(GET_BOARD_MEMBER_BY_PATH, { path })
+    const data = await client.raw(GET_BOARD_MEMBER_BY_PATH, { path })
     return data?.route?.entity || null
   } catch (error) {
     console.error('Error fetching board member:', error)
