@@ -1,4 +1,6 @@
-// Tagged template that returns the query string
+import { gql as apolloGql } from '@apollo/client'
+
+// Tagged template that returns the query string (for server-side use with client.raw())
 const gql = (strings: TemplateStringsArray, ...values: any[]) => strings.reduce((a, s, i) => a + s + (values[i] || ''), '')
 
 // Homepage query with stats
@@ -659,6 +661,40 @@ export const GET_UPCOMING_EVENTS = gql`
             ... on TermInterface {
               id
               name
+            }
+          }
+        }
+      }
+    }
+  }
+`
+
+// ─── Parsed DocumentNode versions for client-side Apollo useQuery() ───
+
+export const GET_FEATURED_SCHOOLS_DOC = apolloGql`
+  query GetFeaturedSchools {
+    nodeSchools(first: 3, sortKey: TITLE) {
+      nodes {
+        id
+        title
+        path
+        ... on NodeSchool {
+          schoolLevel {
+            ... on TermInterface {
+              id
+              name
+            }
+          }
+          principal
+          enrollmentCount
+          image {
+            url
+            alt
+            variations(styles: [MEDIUM]) {
+              name
+              url
+              width
+              height
             }
           }
         }

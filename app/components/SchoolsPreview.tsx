@@ -2,7 +2,7 @@
 
 import Link from 'next/link'
 import { useQuery } from '@apollo/client'
-import { GET_FEATURED_SCHOOLS } from '@/lib/queries'
+import { GET_FEATURED_SCHOOLS_DOC } from '@/lib/queries'
 import { DrupalSchool } from '@/lib/types'
 import { MapPin, Users, ArrowRight, School } from 'lucide-react'
 import ResponsiveImage from './ResponsiveImage'
@@ -19,7 +19,7 @@ interface SchoolsPreviewProps {
 }
 
 export default function SchoolsPreview({ homepageContent }: SchoolsPreviewProps) {
-  const { data, loading, error } = useQuery<FeaturedSchoolsData>(GET_FEATURED_SCHOOLS)
+  const { data, loading, error } = useQuery<FeaturedSchoolsData>(GET_FEATURED_SCHOOLS_DOC)
 
   const schools = data?.nodeSchools?.nodes || []
 

@@ -1,4 +1,5 @@
 import { getClient } from '@/lib/drupal-client'
+import { GET_HOMEPAGE_DATA } from '@/lib/queries'
 import HomepageRenderer from './components/HomepageRenderer'
 import SetupGuide from './components/SetupGuide'
 import ContentSetupGuide from './components/ContentSetupGuide'
@@ -41,7 +42,16 @@ export default async function Home() {
   }
 
   const client = getClient()
-  const homepageContent = await client.getEntryByPath('/') as any
+
+  // Fetch homepage content via direct GraphQL query (not route-based)
+  // because the homepage node may not have a path alias at "/"
+  let homepageContent: any = null
+  try {
+    const data = await client.raw(GET_HOMEPAGE_DATA)
+    homepageContent = data?.nodeHomepages?.nodes?.[0] || null
+  } catch (error) {
+    console.error('Error fetching homepage:', error)
+  }
 
   // Check if connected but no content exists - show content import guide
   if (!homepageContent) {
